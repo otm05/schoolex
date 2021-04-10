@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif
+}
+
+main .conver {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+main .conver .conver-contact {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: auto;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .conver .conver-contact .title {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #EAEDF7;
+}
+
+main .conver .conver-contact .title .title-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+main .conver .conver-contact .title .title-bottom ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+main .conver .conver-contact .title .title-bottom ul li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c4858;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main .conver .conver-contact .title .title-bottom ul .active {
+    color: #6259ca;
+    ;
+}
+
+main .conver .conver-contact .list-msg {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .conver .conver-contact .list-msg li {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #EAEDF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    transition: all 0.3s;
+}
+
+main .conver .conver-contact .list-msg li img {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+main .conver .conver-contact .list-msg li .text {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .conver .conver-contact .list-msg li .text .text-top {
+    margin-top: 10px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .conver .conver-contact .list-msg li .text .text-top p {
+    font-weight: 600;
+    color: #404c6d;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+main .conver .conver-contact .list-msg li .text .text-top span {
+    font-size: 11px;
+    color: #a8afc7;
+}
+
+main .conver .conver-contact .list-msg li .text .text-bottom {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .conver .conver-contact .list-msg li .text .text-bottom p {
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #8f9cc0;
+    line-height: 1.35;
+}
+
+main .conver .conver-contact .list-msg li:hover {
+    background-color: whitesmoke;
+}
+
+main .conver .conver-disc {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+main .conver .conver-disc .conver-disc-title {
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #EAEDF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+main .conver .conver-disc .conver-disc-title .left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+
+main .conver .conver-disc .conver-disc-title .left img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+main .conver .conver-disc .conver-disc-title .left p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #8f9cc0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+main .conver .conver-disc .conver-disc-title i {
+    color: rgb(205, 212, 218);
+    cursor: pointer;
+}
+
+main .conver .conver-disc .conver-disc-loader {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .conver .conver-disc .conver-disc-loader .send {
+    width: auto;
+    height: auto;
+    padding: 10px 20px 0px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main .conver .conver-disc .conver-disc-loader .send img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+main .conver .conver-disc .conver-disc-loader .send ul li {
+    position: relative;
+    display: flex;
+    list-style: none;
+    background-color: #e9e9f9;
+    color: #1e1635;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+main .conver .conver-disc .conver-disc-loader .send ul li p {
+    font-size: 13px;
+}
+
+main .conver .conver-disc .conver-disc-loader .send ul li:last-child {
+    background-color: #fff;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+main .conver .conver-disc .conver-disc-loader .send ul li span {
+    font-size: 11px;
+    color: #a8afc7;
+}
+
+main .conver .conver-disc .conver-disc-loader .send ul li .triangle-send {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 10px solid #e9e9f9;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    right: -10px;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive {
+    width: auto;
+    height: auto;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px 0px 20px;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive ul li {
+    position: relative;
+    display: flex;
+    list-style: none;
+    background-color: #f5f5ff;
+    color: #1e1635;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive ul li p {
+    font-size: 13px;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive ul li:last-child {
+    background-color: #fff;
+    justify-content: flex-start;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive ul li span {
+    font-size: 11px;
+    color: #a8afc7;
+}
+
+main .conver .conver-disc .conver-disc-loader .reccive ul li .triangle-reccive {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 10px solid #f5f5ff;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    left: -10px;
+}
+
+main .conver .conver-disc .conver-disc-loader-msg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #EAEDF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+main .conver .conver-disc .conver-disc-loader-msg input {
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: #414141;
+}
+
+main .conver .conver-disc .conver-disc-loader-msg input:focus {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #a8afc7;
+}
+
+main .conver .conver-disc .conver-disc-loader-msg input::placeholder {
+    color: #a8afc7;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+main .conver .conver-disc .conver-disc-loader-msg button {
+    outline: none;
+    background-color: #fff;
+    border: none;
+    color: #6259ca;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 800;
+}

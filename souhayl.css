@@ -1,0 +1,598 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: rgb(232, 238, 255);
+}
+main .sct1 {
+    margin-top: 15px;
+}
+main .sct1 .div {
+    height: 145px;
+    width: 100%;
+    position: relative;
+} 
+main .sct1 .div .div1 {
+    height: 145px;
+    width: 700px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 10%;
+}
+main .sct1 .div .div1 .div11 {
+    height: 145px;
+    width: 220px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+main .sct1 .div .div1 #i1 {
+    position: absolute;
+    left: 0;
+}
+main .sct1 .div .div1 #i2 {
+    position: absolute;
+    left: 240px;
+}
+main .sct1 .div .div1 #i3 {
+    position: absolute;
+    right: 0;
+}
+main .sct1 .div .div1 .div11 #p1{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+main .sct1 .div .div1 .div11 #p2{
+    position: absolute;
+    top: 38px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct1 .div .div1 .div11 #p3{
+    position: absolute;
+    top: 66px;
+    left: 25px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+main .sct1 .div .div1 .div11 #p4{
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct1 .div .div1 .div11 #p5{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: rgb(86, 86, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 238, 255);
+}
+p {
+    text-transform: capitalize;
+}
+main .sct1 .div .div1 .div11 #p4 span {
+    color: rgb(0, 190, 16);
+}
+main .sct2 {
+    margin-top: 30px;
+}
+main .sct2 .div {
+    height: 210px;
+    width: 100%;
+    position: relative;
+}
+main .sct2 .div .div2 {
+    height: 210px;
+    width: 700px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 10%;
+}
+main .sct2 .div .div2 .div21 {
+    position: absolute;
+    left: 0;
+    height: 210px;
+    width: 340px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+main .sct2 .div .div2 .div22 {
+    position: absolute;
+    right: 0;
+    height: 210px;
+    width: 340px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+main .sct2 .div .div2 .div21 #p1{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+main .sct2 .div .div2 .div21 #p2{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct2 .div .div2 .div21 #p3{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+main .sct2 .div .div2 .div21 #p4{
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(86, 86, 255);
+}
+main .sct2 .div .div2 .div21 #p5{
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct2 .div .div2 .div21 #p6{
+    position: absolute;
+    top: 23px;
+    right: 110px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct2 .div .div2 .div21 #p6 #p60 {
+    position: absolute;
+    top: 3px;
+    right: 50px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(86, 86, 255); 
+}
+main .sct2 .div .div2 .div21 #p7{
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct2 .div .div2 .div21 #p7 #p70 {
+    position: absolute;
+    top: 3px;
+    right: 70px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(161, 161, 161);
+}
+main .sct2 .div .div2 .div21 #p8{
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    font-size: 17px;
+    font-weight: 550;
+    letter-spacing: -1px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px dotted steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .sct2 .div .div2 .div22 #p1{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+main .sct2 .div .div2 .div22 #p2{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct2 .div .div2 .div22 #p3{
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+main .sct2 .div .div2 .div22 #p4{
+    position: absolute;
+    top: 130px;
+    left: 25px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+main .sct2 .div .div2 .div22 #p5{
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.bare1 {
+    position: absolute;
+    top: 96px;
+    left: 160px;
+    height: 6px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(189, 187, 187);
+}
+.bare2 {
+    position: absolute;
+    top: 136px;
+    left: 160px;
+    height: 6px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(189, 187, 187);
+}
+.bare3 {
+    position: absolute;
+    top: 176px;
+    left: 160px;
+    height: 6px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(189, 187, 187);
+}
+.etat {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: steelblue;
+}
+.s1 {
+    position: absolute;
+    top: 91px;
+    right: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.s2 {
+    position: absolute;
+    top: 131px;
+    right: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.s3 {
+    position: absolute;
+    top: 171px;
+    right: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+main .sct3 {
+    margin-top: 30px;
+}
+main .sct3 .div {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main .sct3 .div .div3 {
+    height: 100%;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+main .sct3 .div .div3 .div30 {
+    position: relative;
+    height: 100%;
+    width: 250px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+main .sct3 .div .div3 .div30 #p1 {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+} 
+main .sct3 .div .div3 .div30 #p2 {
+    position: absolute;
+    left: 27px;
+    bottom: 28px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: rgb(86, 86, 255);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 238, 255);
+} 
+main .sct3 .div .div3 .div30 #p3 {
+    position: absolute;
+    top: 63px;
+    right: 25px;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+main .sct4 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+main .sct4 .div {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main .sct4 .div .div4 {
+    height: 100%;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+main .sct4 .div .div4 .div40 {
+    height: 100%;
+    width: 535px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+main .sct4 .div .div4 .div40 .div41 {
+    position: relative;
+    height: 20%;
+    width: 100%;
+}
+main .sct4 .div .div4 .div40 .div41 #p1 {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+main .sct4 .div .div4 .div40 .div41 #p2 {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct4 .div .div4 .div40 .div42 {
+    height: 80%;
+    width: 100%;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li {
+    height: 20%;
+    width: 100%;
+    padding: 5px 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li .div1 {
+    position: relative;
+    height: 100%;
+    width: 250px;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li .div1 img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li .div1 .p1 {
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li .div1 .p2 {
+    position: absolute;
+    top: 27px;
+    left: 61px;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li .div2 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li .div2 p {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: rgb(86, 86, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 238, 255);
+}
+main .sct4 .div .div4 .div40 .div42 .u1 li:hover .div2 p{
+    animation: wooble .7s ease-in infinite;
+}
+@keyframes wooble{
+    from{transform: translateX(-20px);}
+    to{transform: translateX(10px);}
+}
+main .sct5 {
+    position: absolute;
+    padding-bottom: 20px;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main .sct5 .div {
+    position: relative;
+    height: 100%;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+main .sct5 .div #p1{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+main .sct5 .div #p2{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(189, 187, 187);
+}
+main .sct5 .div #p3 {
+    margin-top: 85px;
+    height: 60px;
+    width: 86%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #8f9cc0;
+}
+main .sct5 .div #p3 #i1 {
+    padding-left: 15px;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e8e8f7;
+    outline: none;
+    background-color: white;
+}
+main .sct5 .div #p3 #i1:focus {
+    border: 1px solid #b7b7c4;
+}
+main .sct5 .div #p3 #i1::placeholder {
+    color: #c7c7d5;
+}
+main .sct5 .div #p4 {
+    padding-top: 10px;
+    height: 100px;
+    width: 86%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #8f9cc0;
+}
+main .sct5 .div #p4 #dsc {
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #e8e8f7;
+    outline: none;
+    background-color: white;
+}
+main .sct5 .div #p4 #dsc:focus {
+    border: 1px solid #b7b7c4;
+}
+main .sct5 .div #p4 #dsc::placeholder {
+    color: #c7c7d5;
+}
+button {
+    height: 30px;
+    width: 86%;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    outline: none;
+    background-color: #6259ca;
+}

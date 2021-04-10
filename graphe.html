@@ -1,0 +1,41 @@
+<html>
+    <head>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+  
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+            ['month', 'salles'],
+            ['jan',400],
+            ['feb',460],
+            ['mar',1120],
+            ['apr',540],
+            ['may',1120],
+            ['jun',1920],
+            ['jul', 1020],
+            ['aug',1420],
+            ['sep', 820],
+            ['oct',520],
+            ['nov',2220],
+            ['dec',1520],
+          ]);
+  
+          var options = {
+            title: 'paymentt of this year',
+            curveType: 'function',
+            legend: { position: 'right' }
+          };
+  
+          var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+  
+          chart.draw(data, options);
+        }
+      </script>
+    </head>
+    <body>
+      <div id="curve_chart" style="width: 1000px; height: 400px ;color:#fff;"></div>
+    </body>
+  </html>
+  
