@@ -593,11 +593,13 @@ main {
     border-radius: 3px;
     text-transform: capitalize;
     outline: none;
+    transition: all .4s;
 }
 .btn:hover{
     background-color: #5951ad;
     border-color: #5951ad;
-    transition: all .3s;
+    transition: all 1s;
+    border-radius: 5px;
 }
 
 
