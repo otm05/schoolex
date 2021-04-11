@@ -594,7 +594,11 @@ main {
     text-transform: capitalize;
     outline: none;
 }
+.btn:hover{
     background-color: #5951ad;
+    border-color: #5951ad;
+}
+
 
 
 /*end style Main top*/
