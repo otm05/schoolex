@@ -597,6 +597,7 @@ main {
 .btn:hover{
     background-color: #5951ad;
     border-color: #5951ad;
+    transition: all .3s;
 }
 
 
