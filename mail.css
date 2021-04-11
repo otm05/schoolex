@@ -64,7 +64,7 @@ main .conver .conver-contact .title .title-bottom ul li {
 
 main .conver .conver-contact .title .title-bottom ul .active {
     color: #6259ca;
-    ;
+  
 }
 
 main .conver .conver-contact .list-msg {
@@ -150,6 +150,9 @@ main .conver .conver-disc {
     position: absolute;
     top: 0;
     right: 0;
+}
+main .conver #disc-eleve{
+    width: 100%;
 }
 
 main .conver .conver-disc .conver-disc-title {
@@ -315,7 +318,7 @@ main .conver .conver-disc .conver-disc-loader-msg {
 }
 
 main .conver .conver-disc .conver-disc-loader-msg input {
-    width: 200px;
+    width: 600px;
     height: 35px;
     border: none;
     outline: none;

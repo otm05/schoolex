@@ -428,7 +428,7 @@ nav {
 
 /* start style header animation*/
 
-nav .li-show {
+nav .li-show {/*modifier*/
     width: 10%;
     height: 220px;
     background-color: #fff;
@@ -438,9 +438,10 @@ nav .li-show {
     display: none;
 }
 
-nav #li-config {
+nav #li-config {/*modifier*/
+    height: 250px;
     left: 22.4%;
-    bottom: -220px;
+    bottom: -250px;
 }
 
 nav #li-mailapp {
