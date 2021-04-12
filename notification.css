@@ -12,7 +12,7 @@ main .conver {
     position: relative;
     display: flex;
     width: 100%;
-    height: 600px;
+    height: 710px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@ main .conver .conver-contact {
     left: 0;
     background-color: rgb(255, 255, 255);
     width: 35%;
-    height: auto;
+    height: 100%;
     border-radius: 15px;
 }
 
@@ -225,128 +225,46 @@ main .conver .conver-disc .hdnotif .divtop .pemail {
     top: 30px;
     left: 64px;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 300;   
     text-transform: lowercase;
     letter-spacing: 0.5px;
     color: rgb(189, 187, 187);
 }
 main .conver .conver-disc .bdnotif {
+
     width: 95%;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
 }
 main .conver .conver-disc .bdnotif p {
     height: auto;
     width: 95%;
-    line-height: 25px;
+    color: #1d212f;
+    direction: ltr;
+    word-wrap: break-word;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 15px;
 }
-main .conver .msgnotif {
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-    height: 490px;
-    width: 560px;
-    border-radius: 5px;
-    background-color: #25023d;
-    box-shadow: -8px 5px 20px 0 rgb(21 21 62 / 30%);
-}
-main .conver .msgnotif .hdmsg {
-    position: relative;
-    height: 65px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-main .conver .msgnotif .hdmsg .nwntf {
-    position: absolute;
-    left: 25px;
-    font-size: 14px;
+main .conver .conver-disc .bdnotif p:first-child {
+    height: auto;
+    width: 95%;
+    color: #1d212f;
+    direction: ltr;
+    word-wrap: break-word;
+    font-size: 1rem;
     font-weight: 600;
-    letter-spacing: -0.4px;
+    text-transform: capitalize;
+   
 }
-main .conver .msgnotif .hdmsg .-ntf {
-    position: absolute;
-    right: 60px;
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: -0.4px;
-    cursor: pointer;  
-    
-}
-main .conver .msgnotif .hdmsg .xntf {
-    position: absolute;
-    right: 25px;
-    font-size: 20px;
-    font-weight: 800;
-    letter-spacing: -0.4px;
-    cursor: pointer;
-}
-main .conver .msgnotif .bdmsg {
-    height: 435px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 14px;
-    background-color: white;
-}
-main .conver .msgnotif .bdmsg .to {
-    height: 40px;
-    width: 90%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border-bottom: 1.5px solid whitesmoke;
-}
-main .conver .msgnotif .bdmsg .to #into {
-    height: 37px;
-    width: 480px;
-    border: none;
-    outline: none;
-    color: rgb(130, 130, 130);
-}
-main .conver .msgnotif .bdmsg .subject {
-    height: 40px;
-    width: 90%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border-bottom: 1.5px solid whitesmoke;
-}
-main .conver .msgnotif .bdmsg .subject #insb {
-    height: 37px;
-    width: 448px;
-    border: none;
-    outline: none;
-    color: rgb(130, 130, 130);
-}
-main .conver .msgnotif .bdmsg .msg {
-    padding-top: 10px;
-    height: 240px;
-    width: 90%;
-    border-bottom: 1.5px solid whitesmoke;
-}
-main .conver .msgnotif .bdmsg .msg #inmsg {
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    min-height: 50%;
-    color: rgb(130, 130, 130);
-}
-main .conver .msgnotif .bdmsg .send {
-    position: relative;
-    height: 70px;
-    width: 90%;
-}
-main .conver .msgnotif .bdmsg .send button {
-    width: 100px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+main .conver .msg-notification {
+   height: 70vh;
+   width: 500px;
+   position: absolute;
+   z-index: 3;
 }
