@@ -272,6 +272,7 @@ main .conver .msgnotif .hdmsg .-ntf {
     font-weight: 700;
     letter-spacing: -0.4px;
     cursor: pointer;  
+    
 }
 main .conver .msgnotif .hdmsg .xntf {
     position: absolute;
