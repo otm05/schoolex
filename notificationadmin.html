@@ -197,10 +197,10 @@
             <!--start main top-->
             <div class="mail-title">
                 <div class="text">
-                    <p>boite-mail</p>
-                    <span>mail app / boite-mail</span>
+                    <p>notification</p>
+                    <span>mail app / notification</span>
                 </div>
-                <input type="button" value=" new notification" class="btn" onclick="show('add-form1')">
+                <input type="button" value=" new notification" class="btn" onclick="show('msg-notification')">
             </div>
             <!--end main-top-->
             <!--start main tab-->
@@ -338,8 +338,26 @@
                         </p>
                     </div>
                 </div>
-                <div class="msg-notification">
-                    
+                <div class="msg-notification" id="msg-notification">
+                <div class="top">
+                    <p>new notification</p>
+                    <p><i class="fas fa-times" onclick="hide('msg-notification')"></i></p>
+
+                </div>   
+                <div class="context">
+                    <div class="to">
+                        <p>to</p> <input type="text">
+                    </div>
+                    <div class="subject">
+                        <p>subject</p> <input type="text">
+
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                </div> 
+                <div class="send">
+                    <button class="btn">send</button>
+                </div>
                 
                 </div>
             </div>
