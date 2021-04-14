@@ -263,8 +263,122 @@ main .conver .conver-disc .bdnotif p:first-child {
    
 }
 main .conver .msg-notification {
-   height: 70vh;
+   height: 80vh;
    width: 500px;
-   position: absolute;
+   position: fixed;
    z-index: 3;
+   bottom: 0;
+   right: 20px;
+   background-color: #ffffff;
+   box-shadow: -8px 5px 20px 0 rgb(21 21 62 / 30%);
+   display: flex;
+   display: none;
+   
+}
+main .conver .msg-notification .top {
+   height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 0px;
+    background-color: #1c273c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px ;
+    
+ }
+ main .conver .msg-notification .top p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600; 
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+ }
+ main .conver .msg-notification .top p i{
+   margin-right: 10px;
+   color: #6f7995
+ }
+ main .conver .msg-notification .top p i:hover{
+   font-size: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    
+  }
+  main .conver .msg-notification .context{
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      height: 80%;
+     
+      display: flex;
+      flex-direction: column;
+    
+
+  }
+  main .conver .msg-notification .context .to,main .conver .msg-notification .context .subject{
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #EAEDF7;
+    
+    align-items: center;
+    padding: 10px;
+
+}
+main .conver .msg-notification .context p{
+    color: #1c273c;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+main .conver .msg-notification .context input{
+   width: 70%;
+  margin-left:10px ;
+   height: 35px;
+   background-color: #ffffff;
+   border: none;
+   outline: none;
+   color: #1c273c;
+   font-size: 0.875rem;
+    font-weight: 400;
+}
+main .conver .msg-notification .context textarea{
+    min-width: 95%;
+    max-width: 95%;
+    min-height:60% ;
+    max-height: 70%;
+    
+   
+  padding-top: 10px;
+   
+   
+    border: none;
+    outline: none;
+    color: #1c273c;
+    font-size: 0.875rem;
+     font-weight: 400;
+ }
+  main .conver .msg-notification .send{
+      position: absolute;
+      width: 100%;
+      height: 10%;
+      background-color: rgb(255, 255, 255);
+      bottom: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 20px;
+      border-top: 1px solid #EAEDF7 ;
+
+  }
+  main .conver .msg-notification .send button{
+    width: 100px;
 }
