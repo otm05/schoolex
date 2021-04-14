@@ -117,3 +117,4 @@ function show(x) {
 function redirect() {
     window.location.href = "http://www.w3schools.com";
 }
+
